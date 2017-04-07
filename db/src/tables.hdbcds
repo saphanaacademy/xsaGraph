@@ -1,0 +1,15 @@
+namespace xsaGraph.db;
+
+context tables {
+   entity Members {
+      key name      : String(100) not null;
+          type      : String(100);
+          residence : String(100);
+   };
+   entity Relationships {
+      key key    : Integer     not null;
+          source : String(100) not null;
+          target : String(100) not null;
+          type   : String(100);
+   };
+};

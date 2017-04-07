@@ -1,0 +1,5 @@
+GRAPH WORKSPACE "xsaGraph.db::greekMythology"
+EDGE TABLE "xsaGraph.db::tables.Relationships"
+SOURCE COLUMN "source" TARGET COLUMN "target" KEY COLUMN "key"
+VERTEX TABLE "xsaGraph.db::tables.Members"
+KEY COLUMN "name"
